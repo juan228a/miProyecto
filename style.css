@@ -85,6 +85,7 @@ body{
     margin: 120px;
     display: flex;
     gap: 30rem;
+    
 
 }
 
@@ -94,11 +95,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
     
- 
-
 }
-
 
 .article_text{
 
@@ -108,13 +107,6 @@ body{
 }
 
 
-.figure{
-
-   /* display: flex;
-    align-items:end ;
-    justify-content: end;  */
-
-}
 
 .figure_img{}
 
@@ -240,6 +232,17 @@ a{
         font-size: 1px ;
         background-color: red;
     }
+
+    main, header, nav, main,footer , nav div, .cuarenta, section div, header div { flex-direction: column;
+        width: 100% ; align-items:center !important; text-align: center;}
+        
+        header a, section a,h1,h2,p {width:50%; margin:auto; }
+        
+        nav img { width: 8.33%;}
+        .cuarenta { order: -1;}
+        
+        
+        
 
     
 }
