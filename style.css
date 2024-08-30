@@ -1,0 +1,245 @@
+:root{
+
+    --f_fontFamily:"Inter", sans-serif;
+
+
+
+
+    /*Colors*/
+
+    --c_primario:#0A2FF1;
+    --c_variantePrimario:#04146C;
+    --c_secundario:#3ffff3;
+
+    --c_gris1:#15163D;
+    --c_gris2:#414166;
+    --c_gris3:#71718D;
+    --c_gris4:#9797AE;
+    --c_gris5:#C5C5CD;
+    --c_gris6:#EEEEEE;
+    --c_gris7:#F8F8F8;
+
+    
+    /*Variaciones Primario*/
+
+    --c_variacion1:#3957F1;
+    --c_variacion2:#5974FF;
+    --c_variacion3:#8A9AF1;
+    --c_variacion4:#C9D1FF;
+    --c_variacion5:#EFF2FF;
+    --c_variacion6:#EDF7FF;
+
+}
+
+/* ----SETTINGS---- */
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: var(--f_fontFamily);
+    /* border: 1px solid blue; */
+}
+
+body{
+    
+    background-image: radial-gradient( circle at    -221px -324px , #5974FF  , white 40%);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+/* -----NAVBAR---- */
+
+.oneNavbar{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.picture__img{
+
+    margin-left: 4rem;
+
+}
+
+.navbar{
+
+    font-size: 16px;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    align-items: start;
+    
+}
+
+
+
+
+/* ----MAIN---- */
+
+.section{
+
+    margin: 120px;
+    display: flex;
+    gap: 30rem;
+
+}
+
+
+.article{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+
+}
+
+
+.article_text{
+
+    display: block;
+    
+
+}
+
+
+.figure{
+
+   /* display: flex;
+    align-items:end ;
+    justify-content: end;  */
+
+}
+
+.figure_img{}
+
+
+
+div{
+    margin: top;
+    max-width: 114ch;
+    
+}
+
+.conteiner{
+
+ display: flex;
+ gap: 4rem;
+
+}
+
+
+.section__article--titulo{
+
+    font-size: 58px;
+    font-weight: bold;
+    color: var(--c_gris1);
+
+}
+
+.section__article--parrafo{
+
+    font-weight: light;
+    font-size: 16px;
+    
+}
+
+a{
+
+    font-weight: 600;
+ 
+    color: rgba(255, 255, 255, 1);    ;
+    background-color: var(--c_variantePrimario);
+
+
+}
+
+.section__article--third{
+
+    font-weight: light;
+    font-size: 16px;
+}
+
+.section__article--pTestimonios{
+
+    font-weight: light;
+    font-size: 16px;
+
+}
+
+.section__article--tTestimonios{
+
+    font-weight: bold;
+    font-size: 58px;
+
+}
+
+
+.card__nombre{
+
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.card__descripción{
+
+    font-weight: light;
+    font-size: 16px;
+
+}
+
+.titulo--equipo{
+
+    font-weight: 700;
+    font-size: 48px;
+    color: rgb(39, 45, 56, 1)
+
+}
+
+.parrafo-equipo{
+
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+
+/* ----FOOTER---- */
+
+
+.footer{
+
+    background-color: var(--c_gris1);
+    color: white;
+    
+}
+
+.footer__list--item{
+
+    font-weight: light;
+    font-size: 16px;
+
+}
+
+.footer__titulo{
+
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 1px ;
+        background-color: red;
+    }
+
+    
+}
